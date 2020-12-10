@@ -269,6 +269,8 @@ $ sudo ./install-haskell-platform.sh</pre>
                                     then you may want to use the generic Linux installer.</p>
                                 <p>Simply run,</p>
                                 <pre>$ sudo apt-get install haskell-platform</pre>
+				<p>For stack, additionally run,</p>
+                                <pre>$ sudo apt-get install haskell-stack && stack upgrade --binary-only</pre>				
                             </div> <!-- #linux-debian -->
 
                             <div id="linux-mint" class="flavor">
